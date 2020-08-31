@@ -28,6 +28,14 @@ Windows doesn’t currently have an automated install script, so installation an
 
 Once complete, you will have a Multipass machine called `nitro-dev`, and a new configuration file for the machine stored at `~/.nitro/nitro-dev.yaml`.
 
+## Installing Craft CMS on Nitro
+
+1. Create a local project directory.
+2. `nitro add`
+3. `nitro ssh`
+4. `composer create-project craftcms/craft <Path>`
+5. Finish Craft installation.
+
 ## Uninstalling Nitro
 
 To completely remove Nitro, first [destroy](commands.md#destroy) your machine:
