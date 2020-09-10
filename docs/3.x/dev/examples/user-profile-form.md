@@ -39,7 +39,7 @@ You can create a form that allows users to edit their profile using the followin
   {{ _self.errorList(user.getErrors('firstName')) }}
 
   <label for="last-name">Last Name</label>
-  {{ input('text', 'lastName', user.firstName, {
+  {{ input('text', 'lastName', user.lastName, {
     id: 'last-name',
     class: user.hasErrors('lastName') ? 'error',
   }) }}
